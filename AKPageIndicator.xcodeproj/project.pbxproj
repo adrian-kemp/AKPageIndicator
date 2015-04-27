@@ -10,6 +10,8 @@
 		759EB5481AEE570300F6724E /* AKPageIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 759EB5471AEE570300F6724E /* AKPageIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		759EB54E1AEE570300F6724E /* AKPageIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759EB5421AEE570300F6724E /* AKPageIndicator.framework */; };
 		759EB5551AEE570300F6724E /* AKPageIndicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 759EB5541AEE570300F6724E /* AKPageIndicatorTests.m */; };
+		759EB5611AEE576E00F6724E /* AKPageIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 759EB5601AEE576E00F6724E /* AKPageIndicator.m */; };
+		759EB5631AEE594E00F6724E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759EB5621AEE594E00F6724E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		759EB54D1AEE570300F6724E /* AKPageIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKPageIndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		759EB5531AEE570300F6724E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		759EB5541AEE570300F6724E /* AKPageIndicatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKPageIndicatorTests.m; sourceTree = "<group>"; };
+		759EB5601AEE576E00F6724E /* AKPageIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKPageIndicator.m; sourceTree = "<group>"; };
+		759EB5621AEE594E00F6724E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				759EB5471AEE570300F6724E /* AKPageIndicator.h */,
 				759EB5451AEE570300F6724E /* Supporting Files */,
+				759EB5601AEE576E00F6724E /* AKPageIndicator.m */,
+				759EB5621AEE594E00F6724E /* Assets.xcassets */,
 			);
 			path = AKPageIndicator;
 			sourceTree = "<group>";
@@ -192,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				759EB5631AEE594E00F6724E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				759EB5611AEE576E00F6724E /* AKPageIndicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
